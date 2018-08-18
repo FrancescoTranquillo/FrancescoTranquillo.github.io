@@ -19,7 +19,7 @@ baseurl:              ""
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack Starter Kit
+title:                 Francesco Tranquillo
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -30,7 +30,8 @@ description:           >
 
 # A shorter description for the sidebar.
 tagline:               >
-  Open `_config.yml` to edit this text.
+  A personal website for a biomedical engineering student interested in
+  Healthcare, Data Analysis and Development
 
 # A list of keywords for your blog.
 keywords:              []
