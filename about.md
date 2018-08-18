@@ -19,7 +19,7 @@ hide_description: true
 image: /assets/img/hydejack-8.jpg
 
 # Setting `menu` will generate an entry in the sidebar.
-menu: true
+menu: false
 order: 4
 ---
 

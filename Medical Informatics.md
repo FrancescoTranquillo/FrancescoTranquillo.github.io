@@ -1,7 +1,7 @@
 ---
 title: Medical Informatics Notes
 menu: true
-order: 5
+order: 4
 ---
 # Data in medicine
 
