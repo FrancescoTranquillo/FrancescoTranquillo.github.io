@@ -4,12 +4,15 @@
 author1:
   # Replace <...> with your own (remove the < >)
   name:              Francesco Tranquillo
-  email:             <mail@domain.tld>
+  email:             francesco.tranquillo@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    I'm still studying, this is the draft for a personal website which will
+    I am a biomedical engineering student at Politecnico di Milano, specializing in
+    clinical engineering.
+
+    This is the draft for a personal website which will
     include links to various past and future projects.
 
   # This photo will be used in the about section.
@@ -24,12 +27,12 @@ author1:
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
   social:
 
-    # twitter:         <username>
+    twitter:         FraTra94
     github:          FrancescoTranquillo
     # download:        <url>
-    # email:           <mail@domain.tld>
+    email:           francesco.tranquillo@gmail.com
     # rss:             https://<url>/feed.xml
-    # facebook:        <username>
+    facebook:        francesco.tranquillo
     # google:          <number>
     # vk:              <username>
     # youtube:         <string_string_string>
@@ -56,7 +59,7 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
+    linkedin:        francesco-tranquillo-96029367/
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
