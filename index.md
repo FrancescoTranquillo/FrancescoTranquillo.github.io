@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: pages
 title: Home
 cover: true
 
