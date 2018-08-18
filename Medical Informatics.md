@@ -2,6 +2,7 @@
 title: Medical Informatics Notes
 menu: true
 order: 4
+toc: true
 ---
 # Data in medicine
 
