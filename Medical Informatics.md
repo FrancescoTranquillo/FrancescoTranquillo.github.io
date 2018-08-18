@@ -4,13 +4,13 @@ menu: true
 order: 4
 
 ---
-* Data in Medicine
-* UML Diagrams
-* CUP in UML
-* DBMS
-* Standards in medical informatics
-* Clinical guidelines and protocols
-* Open Data
+* 1 Data in Medicine
+* 2 UML Diagrams
+* 3 CUP in UML
+* 4 DBMS
+* 5 Standards in medical informatics
+* 6 Clinical guidelines and protocols
+* 7 Open Data
 {:toc}
 # Data in medicine
 
