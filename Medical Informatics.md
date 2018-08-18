@@ -2,7 +2,7 @@
 title: Medical Informatics Notes
 menu: true
 order: 4
-toc: true
+
 ---
 # Data in medicine
 
@@ -1956,3 +1956,5 @@ genomics and personalized medicine.
 ● Data often do not exist in transferable forms.
 ● Some data are not sharable for ethical or epistemological reasons
 ```
+
+{:toc}
