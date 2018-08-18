@@ -24,33 +24,34 @@ title:                 Francesco Tranquillo
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  A Jekyll theme with JavaScript powers. "Best Theme by a Mile".
-  Combines the best of static sites and modern web apps.
-  Open `_config.yml` to edit this text.
+  Personal website for a biomedical engineering student
+  interested in healthcare, data analysis and coding
 
 # A shorter description for the sidebar.
 tagline:               >
-  A personal website for a biomedical engineering student interested in
+  Personal website for a biomedical engineering student interested in
   Healthcare, Data Analysis and Development
 
 # A list of keywords for your blog.
 keywords:              []
 
 # Used by jekyll-seo-tag.
-logo:                  /assets/icons/icon.png
+logo:                  /assets/icon/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Francesco Tranquillo
+  email:               francesco.tranquillo@gmail.com
+  photo:               /assets/icon/icon.png
   # Used by `jekyll-seo-tag`:
-  # twitter:             <username>
+  social:
+    github:
+    twitter:
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
-  © 2018. All rights reserved.
-  Open `_config.yml` to edit this text.
+
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
@@ -72,8 +73,8 @@ paginate_path:         /page-:num/
 # ========================================================================================
 
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_image:
+accent_color:          "#3BADF1"
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
