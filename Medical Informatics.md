@@ -4,6 +4,14 @@ menu: true
 order: 4
 
 ---
+* Data in Medicine
+* UML Diagrams
+* CUP in UML
+* DBMS
+* Standards in medical informatics
+* Clinical guidelines and protocols
+* Open Data
+{:toc}
 # Data in medicine
 
 Medical informatics is the body of knowledge, methods, and theories that focus on the
@@ -1956,5 +1964,3 @@ genomics and personalized medicine.
 ● Data often do not exist in transferable forms.
 ● Some data are not sharable for ethical or epistemological reasons
 ```
-
-{:toc}
