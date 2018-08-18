@@ -19,8 +19,8 @@ hide_description: true
 image: /assets/img/hydejack-8.jpg
 
 # Setting `menu` will generate an entry in the sidebar.
-menu: false
-order: 4
+menu: true
+order: 1
 ---
 
 > "Best Jekyll Theme by a Mile"
