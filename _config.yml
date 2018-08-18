@@ -25,12 +25,12 @@ title:                 Francesco Tranquillo
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
   Personal website for a biomedical engineering student
-  interested in healthcare, data analysis and coding
+  interested in Healthcare and Data Analysis
 
 # A shorter description for the sidebar.
 tagline:               >
   Personal website for a biomedical engineering student interested in
-  Healthcare, Data Analysis and Development
+  Healthcare and Data Analysis
 
 # A list of keywords for your blog.
 keywords:              []
