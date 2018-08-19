@@ -14,8 +14,7 @@ output:
     df_print: paged
     always_allow_html: yes
 
-menu: TRUE
-order: 6
+
 ---
 <style type="text/css">
 h1.title {
