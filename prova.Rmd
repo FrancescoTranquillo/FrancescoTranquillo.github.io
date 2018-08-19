@@ -15,7 +15,7 @@ h1.title {
 }
 </style>
 ```{r, echo=FALSE, warning= FALSE, message= FALSE}
-library(plotly)
+
 library(ggplot2)
 library(reshape2)
 library(plyr)
@@ -82,7 +82,7 @@ p1<-ggplot(df, aes(Dominant.Race, Total))+
            scale_colour_manual(values=c("Gek"="greenyellow","Korvax"="royalblue", "Vy'keen"="coral2"))+
            theme_classic()+
   coord_flip()
-pa<-ggplotly(p1)
+
 p2<-ggplot(df, aes(Total))+
   geom_density(aes(fill=Dominant.Race), alpha=0.5)+
   scale_fill_manual(values=razze)+
@@ -92,13 +92,13 @@ axis.text.x = element_blank(),
 axis.text.y = element_blank(),
 axis.ticks.y = element_blank()
 )
-pb<-ggplotly(p2)
 
 
 
-p<-subplot(pb,pa, nrows = 2, shareX = TRUE, heights = c(0.2,0.7))
-p<-style(p, showlegend=FALSE)
-p
+
+#p<-grid.arrange(p2,p1, nrows = 2, shareX = TRUE, heights = c(0.2,0.7))
+#p<-style(p, showlegend=FALSE)
+#p
 ```
 </center>
 Nel grafico i Gek hanno una più alta densità di sistemi con una percentuale commerciale totale pari al 90%. Inoltre si può notare come le loro percentuali si concentrino intorno all'85% circa, seguiti da Korvax (81%) e Vy'keen (78%).
