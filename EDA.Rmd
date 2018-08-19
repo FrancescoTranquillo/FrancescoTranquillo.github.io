@@ -14,7 +14,7 @@ output:
     df_print: paged
     always_allow_html: yes
 
-
+htmlwidgets: TRUE
 ---
 <style type="text/css">
 h1.title {
