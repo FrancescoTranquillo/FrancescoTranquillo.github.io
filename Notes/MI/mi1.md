@@ -2,6 +2,8 @@
 layout: page
 title: 1 Data in Medicine
 ---
+* Data in medicine
+{:toc}
 
 # Data in medicine
 
