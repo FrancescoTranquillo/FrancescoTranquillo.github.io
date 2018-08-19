@@ -2,7 +2,7 @@
 
 title: Home
 cover: true
-layout: list
+layout: page
 ---
 
 * [Projects]{:.heading.flip-title}
