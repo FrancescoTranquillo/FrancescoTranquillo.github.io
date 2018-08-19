@@ -8,11 +8,10 @@
 - [Introduction](introduction)
 - [Installation](installation)
 - [Methodology](citation)
-- [Contact](contact)
-- [Acknowledgements](acknowledgements)
+- [Manual](Manual)
 
 ## Introduction
-The dashboard is designed to host "Employee Data" (ED) and "Specialized Practitioner Data" (SPD). ED and SPD are managed by 2 different parts of the app in order to visualize different types of information.
+The dashboard is designed to host "Employee Data" (ED) and "Specialized Practitioner Data" (SPD). ED and SPD are managed by 2 different parts of the app in order to visualize different types of information. You can visualize a full detailed pdf report [here](report.pdf)
 
 ## Installation
 
@@ -47,3 +46,5 @@ To run the app from your browser you can also go to this [link](https://Francesc
 Serena has been developed using many different packages of the software R. These packages are used within the app during the data preparation for the plotting of the temporal trends.
 
 The plots are obtained using mainly "ggplot2" package. The interactivity is given by "plotly" which is a JavaScript package that makes easier for the user to visualize and interact with the plot.
+
+## [Manual](manual/manual.md) 

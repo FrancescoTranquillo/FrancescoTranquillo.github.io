@@ -26,7 +26,7 @@ id | methods | replicate | variable1 | ... | variable x
 ...|...|...|...|...|...
 118|B|2|...|...|...
 
-As we can see, there where two observations for each used method.
+As we can see, there were two observations for each used method.
 
 ## Identity and B-A plots
 Thanks to the package, some initial (but sometime exhaustive) plot can be drawn:
@@ -34,4 +34,4 @@ Thanks to the package, some initial (but sometime exhaustive) plot can be drawn:
 <img src="img/BA.png" align="center" />
 
  The title represents one of the x variables analyzed by the method/technology.
- The upper plot is the Bland-Altman plot, while the lower one is the Identity line plot. 
+ The upper plot is the Bland-Altman plot, while the lower one is the Identity line plot.
