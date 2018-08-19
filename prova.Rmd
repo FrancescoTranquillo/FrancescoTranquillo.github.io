@@ -52,7 +52,7 @@ razze<-c("greenyellow","royalblue", "coral2")
 ```{r, echo=FALSE, warning= FALSE, message= FALSE}
 
 
-ggplotly(ggplot(df, aes(Dominant.Race))+
+ggplot(df, aes(Dominant.Race))+
            geom_bar(alpha=0.7,aes(fill=Dominant.Race), width = 0.6)+
            scale_fill_manual(name= "Razza \nDominante", values=c("Gek"="greenyellow","Korvax"="royalblue", "Vy'keen"="coral2"))+
            geom_text(stat="count", aes(label=..count.., y=..count..+2))+
@@ -64,7 +64,7 @@ ggplotly(ggplot(df, aes(Dominant.Race))+
 
 
            #axis.text.y = element_blank(), axis.ticks.y = element_blank()
-)
+
 ```
 </center>
 Non sembra esserci una razza dominante.
@@ -114,7 +114,7 @@ Come è distribuita la ricchezza nella galassia?
 
 
 dfriccanza<-count(df, Economy.Strength, Economy.Strength.Numeric)
-ggplotly(ggplot(dfriccanza, aes(reorder(Economy.Strength, -n, sum), n))+
+ggplot(dfriccanza, aes(reorder(Economy.Strength, -n, sum), n))+
            geom_bar(stat="identity",alpha=0.8,position="dodge", aes(fill=Economy.Strength.Numeric), width = 0.6)+
            geom_text(stat="identity", aes(label=n, y=n+1), size=3)+
            theme_classic()+
@@ -122,7 +122,7 @@ ggplotly(ggplot(dfriccanza, aes(reorder(Economy.Strength, -n, sum), n))+
            xlab("Forza dell'economia")+
            ggtitle("Frequenza dei sistemi ricchi, medi e poveri")+
            scale_fill_brewer(palette= "BuPu", name="Valutazione \neconomica")
-)
+
 ```
 </center>
 I sistemi "medi" sono molto più frequenti di quelli poveri, che sono a loro volta più frequenti di quelli ricchi.
@@ -168,7 +168,7 @@ Avendo a disposizione i dati, possiamo indagare la relazione tra:
 <center>
 ```{r,echo=FALSE, warning= FALSE, message= FALSE}
 
-ggplotly(ggplot(df, aes(Star.Colour, Total))+
+ggplot(df, aes(Star.Colour, Total))+
            geom_point(aes(fill=Star.Colour))+
            geom_jitter(alpha=0.4, aes(fill=Star.Colour), width = 0.3)+
            geom_violin(alpha=0.3,  aes(fill=Star.Colour))+
@@ -181,7 +181,7 @@ ggplotly(ggplot(df, aes(Star.Colour, Total))+
            theme(legend.position = "none")
 
 
-)
+
 
 ```
 </center>
