@@ -8,8 +8,9 @@ To do so, I've put the initial data in R and proceeded with the analyses using a
 
 ## MethComp
 The package morphs input data into an R-object, used by the same to do different type of plots such as:
-* [Identity plot]((Identity and B-A plots)
-* [Bland-Altman plot](Identity and B-A plots)
+* Identity line plot
+* Bland-Altman plot
+
 
 and also different type of regression models (Passing-Bablock or Deming regressions).
 

@@ -10,6 +10,6 @@ Table of Contents
 
 * [Method Comparison Study](Method Comparison Study/readme.md)
 
-* [Hypertension level monitoring system](Serena/report.pdf)
+* [Hypertension level monitoring system](Hypertension level monitoring system/)
 
 {:toc}
