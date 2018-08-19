@@ -52,6 +52,8 @@ author:
     I am a biomedical engineering student at Politecnico di Milano, specializing in
     clinical engineering.
 
+exclude:
+  -"*.Rmd"
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
 
