@@ -1,13 +1,10 @@
 ---
-
 title: Home
 cover: true
 layout: page
+oder: 1
 ---
 
-* [Projects]{:.heading.flip-title}
-* [Notes]{:.heading.flip-title}
-{:toc}
+Welcome to my [personal](about.md){:.heading.flip-title} website!
 
-[Projects]: Projects/index.md
-[Notes]:Notes/index.md
+Here you will find some of my past and present [projects](Projects/index.md){:.heading.flip-title} as well as [notes](Notes/){:.heading.flip-title} of different subjects.

@@ -1,7 +1,7 @@
 ---
 title: Notes
 menu: true
-layout: list
+layout: page
 ---
 
 * [Medical informatics]{:.heading.flip-title}
