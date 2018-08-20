@@ -1,7 +1,7 @@
 # Hypertension level monitoring system
 
 ## Information
-This is a project work for the "Medical Informatics" course, which I've attended between April and June 2018. The project has been developed by a group of others students (Fabio Cubeddu, Emanuele Stagno, Gianmarco Mazzotta) and myself.
+This is a group project work for the "Medical Informatics" course, which I've attended between April and June 2018. 
 
 ## Brief conclusions
 Overall, the Project Team achieves its goal to build a smart, user-friendly, easy and graphically intuitive Database, composed by many forms that make it reliable and give the possibility to insert new data every time is needed, making it incremental. The Database can be used by all the three types of users, relating to their access level, that allows them to
