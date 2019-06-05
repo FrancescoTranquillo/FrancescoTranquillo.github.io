@@ -14,4 +14,6 @@ Table of Contents
 
 * [Characterization of health apps](ehealth/)
 
+* [INSIGHT](INSIGHT/)
+
 {:toc}
