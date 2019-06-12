@@ -5,7 +5,7 @@ layout: page
 ---
 
 # Description
-By far one of the most interesting course I had attended in my studies. 
+By far one of the most interesting course I have attended in my studies. 
 The course included subjects like Fuzzy logic and Fuzzy controllers design, Neural networks and genetic algorithms.
 
 # Handwritten notes
