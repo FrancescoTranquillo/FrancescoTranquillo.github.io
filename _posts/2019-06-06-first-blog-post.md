@@ -1,12 +1,10 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+image: /assets/img/io_isa.jpeg
 ---
 
 # Welcome
-![io oggi](../assets/img/io_isa.jpeg){:data-width="1440" data-height="836"}
-{:.figure}
-
 First post using Jekyll!
 
 Today I've finally got the opportunity to extract the backup files of the endoscope washing machines I'm working on for the [INSIGHT](../Projects/INSIGHT/readme.md) project.
