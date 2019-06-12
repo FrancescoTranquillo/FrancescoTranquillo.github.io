@@ -10,4 +10,4 @@ The course included subjects like Fuzzy logic and Fuzzy controllers design, Neur
 
 # Handwritten notes
 
-<iframe src="https://drive.google.com/file/d/1IJGW0NL-FaeDw5EdpHjfqWU4CrictIZL/preview" width="100%" height="100%"></iframe>
+<iframe src="https://drive.google.com/file/d/1IJGW0NL-FaeDw5EdpHjfqWU4CrictIZL/preview" width=600 height=850></iframe>
