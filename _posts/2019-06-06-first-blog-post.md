@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-image: /assets/img/io_isa.jpeg
+image: /assets/img/Cattura.PNG
 ---
 
 # Welcome
