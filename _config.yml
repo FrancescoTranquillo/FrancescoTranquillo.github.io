@@ -117,7 +117,7 @@ defaults:
       seo:
         type:          WebPage
   - scope:
-      type:            posts
+      type:            post
     values:
       comments:        true
 
