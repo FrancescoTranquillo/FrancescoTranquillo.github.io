@@ -82,3 +82,6 @@ output:
     number_sections: yes
 ---
 ```
+
+<script src="/js/jquery.min.js"></script>
+{%include lightbox.html %}
