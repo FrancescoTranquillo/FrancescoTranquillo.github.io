@@ -2,6 +2,7 @@
 layout: post
 title:  "My ms thesis is finally complete!"
 image: /assets/img/blog2.jpg
+
 ---
 
 # What a journey!
@@ -36,6 +37,8 @@ customizable (thanks to the many addons available) text editor which I used to o
 # Settings
 
 This is what my project folder looks:
+
+{% include lightbox.html src="folder.png" data="group" title="test" %}
 
 ![folder](/assets/img/folder.png)
 
@@ -82,6 +85,3 @@ output:
     number_sections: yes
 ---
 ```
-
-<script src="/js/jquery.min.js"></script>
-{%include lightbox.html %}
