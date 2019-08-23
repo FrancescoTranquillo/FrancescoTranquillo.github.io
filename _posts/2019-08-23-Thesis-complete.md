@@ -2,7 +2,6 @@
 layout: post
 title:  My ms thesis is finally complete!
 image: /assets/img/blog2.jpg
-comments: true
 
 ---
 
