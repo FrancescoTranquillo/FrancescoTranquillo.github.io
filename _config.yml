@@ -117,7 +117,7 @@ defaults:
       seo:
         type:          WebPage
   - scope:
-      type:            post
+      type:            posts
     values:
       comments:        true
 
@@ -131,7 +131,7 @@ defaults:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus:                personal-13
+disqus:                github-kdnyqx3xt3
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
