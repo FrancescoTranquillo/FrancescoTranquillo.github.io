@@ -18,7 +18,7 @@ When I started sorting things out for my thesis, I didn't know anything about La
 
 ![latex equations and resulting printed equations](/assets/img/eq.png)
 
-2. An .rmd file is a plain text document in which one can insert *code chunks* of different programming language (Python, R) in order to make...anything you could do with some code. In my thesis, I've used some R code chunks in order to build plots and tables (as in the picture below). The orange box represents the plain text of the thesis. The code chunk, in the green box, is where I put all the R code needed to plot the bar plot using ggplot. No need to build the plot on a new R script and exporting the resulting image in a file: **everything I need is already in the chapter file, ready to be modified if needed**.
+2. An .rmd file is a plain text document in which one can insert *code chunks* of different programming language (Python, R) in order to make...anything you could do with some code. In my thesis, I've used some R code chunks in order to build plots and tables (as in the picture below). The orange box represents the plain text of the thesis. The code chunk, in the green box, is where I put all the R code needed to create the bar plot. No need to build the plot on a new R script and exporting the resulting image in a file: **everything I need is already in the chapter file, ready to be modified if needed**.
 
 ![R code chunk and the resulting plot. Rmarkdown FTW!]( /assets/img/sdd.png)
 
