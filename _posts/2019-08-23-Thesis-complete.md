@@ -32,3 +32,53 @@ customizable (thanks to the many addons available) text editor which I used to o
 2. Rstudio and Rmarkdown, of course. I've used Rmarkdown to write the main.rmd file which is the master file where I've set all the instructions to build the different parts of the thesis.
 
 3. [Zotero](https://www.zotero.org/): a free and simple tool which I used to organize all the documents and papers that I wanted to cite. Using Atom, I've also installed the package called [Zotero-picker](https://atom.io/packages/zotero-picker) which is really great to invoke Zotero and add citations keys.
+
+# Settings
+
+This is what my project folder looks:
+
+![folder](/assets/img/folder.png)
+
+As you can see, every chapter has its own folder containing a markdown file (the one with the ".md" extension) and a folder containing images related to that chapter. The most important file is the one called ```main.Rmd``` which is the one that get processed first from Rmarkdown. The file is divided in 2 parts:
+
+1. YAML header: which is basically a set of instructions that Rmarkdown need to "knit" and produce the final ```.pdf``` file. The YAML section looks like this:
+
+```r
+---
+bibliography: My Library.bib
+csl: style.csl
+fontsize: 12pt
+geometry: asymmetric
+header-includes:
+- \usepackage{emptypage}
+- \usepackage[italian]{babel}
+- \usepackage{placeins}
+- \usepackage{setspace}
+- \usepackage{float}
+- \usepackage{chngcntr}
+- \usepackage{amsmath}
+- \usepackage{physics}
+- \usepackage{enumitem}
+- \usepackage{textcomp}
+- \usepackage{tikz}
+- \usetikzlibrary{positioning}
+- \onehalfspacing
+- \counterwithin{figure}{section}
+- \counterwithin{table}{section}
+- \evensidemargin=0in
+- \oddsidemargin=0.5in
+- \usepackage{fancyhdr}
+- \usepackage{listings}
+- \lstset{basicstyle=\ttfamily\footnotesize,breaklines=true, aboveskip=\medskipamount}
+- \floatplacement{figure}{H}
+linestretch: 1.5
+link-citations: yes
+output:
+  word_document: default
+  pdf_document:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 5
+    number_sections: yes
+---
+```
