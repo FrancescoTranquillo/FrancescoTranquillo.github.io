@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://FrancescoTranquillo.github.io
+url: https://FrancescoTranquillo.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -117,9 +117,9 @@ defaults:
       seo:
         type:          WebPage
   - scope:
-      type: posts
+      type:            posts
     values:
-      comments: true
+      comments:        true
 
 
 # 3rd Party Integrations
@@ -131,7 +131,7 @@ defaults:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
- disqus:                personal-13
+disqus:                personal-13
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
