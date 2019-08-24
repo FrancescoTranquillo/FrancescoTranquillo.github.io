@@ -23,6 +23,10 @@ images:
 
 After 6 months of hard work, yesterday I've finally managed to send the complete version of my ms thesis to be reviewed from my thesis supervisor. It's my first "serious" work entirely made with [Rmarkdown](https://rmarkdown.rstudio.com/). I wanted to share what resources I used to make this entire work possible and how I managed to get all the things working appropriately. Enjoy!
 
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just finished writing my thesis using <a href="https://twitter.com/hashtag/rmarkdown?src=hash&amp;ref_src=twsrc%5Etfw">#rmarkdown</a>! I&#39;ve learned soooooo much! <a href="https://twitter.com/hashtag/rmarkdown?src=hash&amp;ref_src=twsrc%5Etfw">#rmarkdown</a> <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a></p>&mdash; Francesco Tranquillo (@FraTra94) <a href="https://twitter.com/FraTra94/status/1163191520985591809?ref_src=twsrc%5Etfw">August 18, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 # Why Rmarkdown?
 
 If you already know R and R Markdown, you can skip to the next [section](#requirements).
